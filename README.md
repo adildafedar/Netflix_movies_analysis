@@ -52,7 +52,7 @@ Clone the repository:
 
 git clone https://github.com/adildafedar/Netflix_movies_analysis.git
 
-cd movie-analysis
+cd Netflix_movies_analysis
 
 Place the dataset file (mymoviedb.csv) in the project folder.
 
