@@ -46,25 +46,26 @@ To run the project locally, you need to have Python 3.x and the following librar
 You can install these dependencies using `pip`:
 
 pip install pandas numpy matplotlib seaborn
-#Usage
+
+# Usage
 Clone the repository:
-git clone https://github.com/adildafedar/Netflixmovieanalysis.git
+git clone https://github.com/adildafedar/Netflix_movies_analysis.git
 cd movie-analysis
 Place the dataset file (mymoviedb.csv) in the project folder.
 
 Run the Jupyter Notebook or Python script to execute the analysis.
 
-Data Preprocessing
+# Data Preprocessing
 The Release_Date column was converted to datetime format and the year was extracted.
 The Genre column was split by commas and exploded into individual rows.
 The Vote_Average column was categorized into four categories: not_popular, below_avg, average, and popular.
-Visualizations
+# Visualizations
 The project includes various visualizations to better understand the data, such as:
 
 A bar chart showing the distribution of movie genres.
 A count plot displaying the distribution of movies based on vote averages.
 A histogram visualizing the number of movies released per year.
-Conclusion
+# Conclusion
 Most Frequent Genre: Drama is the most frequent genre in the dataset.
 Highest Votes in Vote Average: The dataset shows that 25.5% of movies have an average vote of "popular".
 Most Popular Movie: "Spider-Man: No Way Home" has the highest popularity, with genres Action, Adventure, and Science Fiction.
@@ -72,7 +73,7 @@ Least Popular Movie: "The United States vs. Billie Holiday" and "Threads" have t
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
+# Acknowledgments
 
 Thanks to the Python community for creating the libraries used in this analysis.
 
